@@ -1,0 +1,26 @@
+swagger
+
+https://www.sdetunicorns.com/test/api-docs#/Admins/post_admin_signup
+
+para iniciar o projeto - criar o arquivo json
+npm init -y
+
+instalando as deéndencias 
+npm install --save-dev jest
+
+npm install supertest
+
+documentação do jest
+https://jestjs.io/docs/getting-started
+
+
+para estudar API
+https://jsonplaceholder.typicode.com/
+
+https://gorest.co.in/
+
+https://practice-react.sdetunicorns.com/
+https://www.sdetunicorns.com/api/test/brands
+https://practice-react.sdetunicorns.com/api/test/brands
+https://practice-react.sdetunicorns.com/api/test/brands
+https://jsonplaceholder.typicode.com/
