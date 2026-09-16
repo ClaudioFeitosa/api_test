@@ -7,6 +7,11 @@ describe('Brands', () => {
 
     describe('Create $ fetch Brands', () => {
 
+        test.describe('Create brands', () => {
+            
+        })
+        
+
         it('brands Completo ', async () => {
         const res = await request.get('/brands/');
         expect(res.statusCode).toBe(200);

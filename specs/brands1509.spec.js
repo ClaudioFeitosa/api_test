@@ -7,7 +7,7 @@ describe('Brands', () => {
 
     describe('Create $ fetch Brands', () => {
 
-        describe.only('Validar regras e descrição do nome da brand BVA', () => {
+        describe('Validar regras e descrição do nome da brand BVA', () => {
 
             // este afterEach via fazer a limpeza toda vez que uma brand for criada e o teste executado ela deleta
             // isso elimita o lixo 
