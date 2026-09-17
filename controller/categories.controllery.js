@@ -2,7 +2,7 @@ const supertest = require("supertest");
 const baseUrl =  require('../config/base.config')
 const request = supertest(baseUrl);
 
-class BrandController {
+class CategoriesController {
     getBrands (){
       return  request.get('/brands/');
     }
@@ -28,5 +28,5 @@ class BrandController {
             .delete('/brands/' + id)
     }
 }
-module.exports = new BrandController();
+module.exports = new CategoriesController();
 

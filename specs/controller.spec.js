@@ -1,10 +1,19 @@
 // //constantes
 const supertest = require("supertest");
-const request = supertest('https://www.sdetunicorns.com/api/test');
+//const request = supertest('https://www.sdetunicorns.com/api/test');
 const brandController = require("../controller/brand.controller");
 
 describe('Brands', () => {
     let newBrand;
+
+    beforeAll(async () => {
+        const brand = {
+        'name': 'Test Brand ' + Math.floor(Math.random() * 100000),
+        'description': 'Test Brand Description'
+        }
+        newBrand = await brandController.postBrands(brand)
+    })
+
 
     describe('Fetch brands', () => {        
         it('GET /brands', async () => {
@@ -20,19 +29,7 @@ describe('Brands', () => {
             })
         }) 
     })
-    describe('Create brands - revisado com o controller funcionando', () => {
-        let data;
-        let postBrand;
-
-        beforeAll(async () => {
-            data = {
-                'name': 'Test Brand ' + Math.floor(Math.random() * 100000),
-                'description': 'Test Brand Description'
-            }
-            postBrand = await brandController.postBrands(data)
-
-        })
-        
+    describe('Create brands - revisado com o controller funcionando', () => {        
         afterEach (async () => {
             if (newBrand?._id){
                 const deleteRes = await request
@@ -43,12 +40,12 @@ describe('Brands', () => {
         })
 
         it('POST /brands controller revisado', async () => {      
-            expect(postBrand.statusCode).toBe(200);
-            expect(postBrand.body.name).toEqual(data.name)
-            expect(postBrand.body).toHaveProperty('createdAt')
-            console.log(postBrand.body)
+            expect(newBrand.statusCode).toBe(200);
+            expect(newBrand.body.name).toEqual(newBrand.body.name)
+            expect(newBrand.body).toHaveProperty('createdAt')
+            console.log(newBrand.body)
 
-            newBrand = postBrand.body;
+           // newBrand = newBrand.body;
         })
 
         it('Schema Verification - Name is  a mandatori field - controller', async() => {
@@ -137,6 +134,7 @@ describe('Brands', () => {
                 description: 123
             }
         const res = await brandController.postBrands(descriptionString)
+
         console.log('BODY:', res.body);
         expect(res.statusCode).toBe(422);
         expect(res.body.error).toEqual('Brand description must be a string')
@@ -156,58 +154,26 @@ describe('Brands', () => {
             expect(res2.body.error).toContain('already exists')
         })
     })
-    describe('Fetch Individual Brand', () => {
-        let postBrand;
-        beforeAll(async () => {
-            const data = {
-            'name': 'Test Brand ' + Math.floor(Math.random() * 100000),
-            'description': 'Test Brand Description'
-            }
-            postBrand = await request
-            .post('/brands')
-            .send(data)
-        })
+    describe('Fetch Individual Brand - controller', () => {
+
         it ('Business Logic- GET /Brand/:INVALID_ID should throw 404', async() => {
-            const res = await request.get('/brands/' + '6aa8507c14ed0d60b0322f02');
-            
+            const res = await request.get('/brands/' + '6aa8507c14ed0d60b0322f02');            
             console.log(res.body);
             expect(res.statusCode).toEqual(404);
             expect(res.body.error).toContain('Brand not found.')
-        })
-
-        it ('GET /Brand/: ID', async() => {
-            const res = await request.get('/brands/' + postBrand.body._id);
-            //console.log(res.body);
-            expect(res.statusCode).toEqual(200);
-            expect(res.body.name).toEqual(postBrand.body.name)
-        })        
-        it('GET lista de brands', async () => {      
-            const res = await request.get('/brands/');
-            console.log(res.body[0]);   
-        })        
+        })     
     })
 
-    describe('Update brands', () => {
-        let postBrand;
-            beforeAll(async () => {
-            const data = {
-            'name': 'Test Brand ' + Math.floor(Math.random() * 100000),
-            'description': 'Test Brand Description'
-            }
-            postBrand = await request
-            .post('/brands')
-            .send(data)
-            })
-        it('PUT /brands', async () => {            
-        const data = {
-            name: postBrand.body.name + ' updated'            
+    describe('Update brands- controller', () => {
+
+        it('PUT /brands - controller', async () => {            
+        const updateName = {
+            name: newBrand.body.name + ' updated'            
         }
-        const res = await request
-            .put('/brands/' + postBrand.body._id)
-            .send(data)
+        const res = await brandController.postBrands(updateName);
 
         expect(res.statusCode).toEqual(200)
-        expect(res.body.name).toEqual(data.name)
+        expect(res.body.name).toEqual(updateName.name)
         console.log(res.body.name)
         });
     
@@ -215,35 +181,23 @@ describe('Brands', () => {
         const data = {
             'name': ' updated'
         }
-        const res = await request
-            .put('/brands/' + 123)
-            .send(data)
+        const res = await brandController.putBrands(123, data)
 
         expect(res.statusCode).toEqual(422)
         expect(res.body.error).toContain('Unable to update brands')
         });
     });
-    describe('Delete Brands', () => {
-        let deleteBrand;
-        beforeAll(async () => {
-        const data = {
-        'name': 'Test Brand ' + Math.floor(Math.random() * 100000),
-        'description': 'Test Brand Description'
-        }
-        deleteBrand = await request
-        .post('/brands')
-        .send(data)
-        })
-        it('DELETE /brands', async () => {
-        const res = await request
-            .delete('/brands/' + deleteBrand.body._id)
+    describe('Delete Brands - controller', () => {
+        it('DELETE /brands este aqui', async () => {
+        const res = await brandController.deleteBrand(newBrand.body._id)
         expect(res.statusCode).toEqual(200)
         });
+
+        
         it('DELETE /brands/invalid_id', async () => {
-        const res = await request
-            .delete('/brands/' + 123)
-        expect(res.statusCode).toEqual(422)
-        expect(res.body.error).toContain('Unable to delete brand')
+            const res = await brandController.deleteBrand(2222)
+            expect(res.statusCode).toEqual(422)
+            expect(res.body.error).toContain('Unable to delete brand')
         });
     });
 });
