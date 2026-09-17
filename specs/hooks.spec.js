@@ -189,7 +189,7 @@ describe('Brands', () => {
             expect(res.body.error).toContain('Brand not found.')
         })
 
-        it ('GET /Brand/: ID', async() => {
+        it.only ('GET /Brand/: ID', async() => {
             const res = await request.get('/brands/' + postBrand.body._id);
             //console.log(res.body);
             expect(res.statusCode).toEqual(200);
