@@ -1,0 +1,803 @@
+Date: Mon, 21 Sep 2026 19:38:56 +0000 (UTC)
+Message-ID: <1463955839.39.1790019536957@5618ce4e0269>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_38_1077536239.1790019536956"
+
+------=_Part_38_1077536239.1790019536956
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Ap=C3=AAndice A - Padr=C3=B5es Obrigat=C3=B3rios de Codifica=C3=
+=A7=C3=A3o Acess=C3=ADvel</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Ap=C3=AAndice A - Padr=C3=B5es Obrigat=C3=B3rios de Codifica=C3=A7=
+=C3=A3o Acess=C3=ADvel</h1>
+    <div class=3D"Section1">
+        <h2 local-id=3D"7904344abfd0" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObri=
+gat=C3=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Objetivo">Objetivo</h2>
+<p local-id=3D"da234a187eaf">Esta se=C3=A7=C3=A3o define padr=C3=B5es obrig=
+at=C3=B3rios para Angular (17-22), React e aplica=C3=A7=C3=B5es Web.</p>
+<p local-id=3D"a47996173612">Todo c=C3=B3digo novo deve seguir estes padr=
+=C3=B5es.</p>
+<hr local-id=3D"6849a4a4-9938-478f-b7d2-455d830b0756" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"f148a81d13f0" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA01">REGRA A01</h1>
+<h2 local-id=3D"250c61e3b162" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-N=C3=A3outilizarDIVclic=C3=A1v=
+el">N=C3=A3o utilizar DIV clic=C3=A1vel</h2>
+<h3 local-id=3D"4395cf8668a7" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Problema">Problema</h3>
+<p local-id=3D"0f9cfcd1f5dc">Um DIV n=C3=A3o =C3=A9 um controle interativo.=
+</p>
+<p local-id=3D"3f049c4b0ac8">Leitores de tela n=C3=A3o entendem sua finalid=
+ade.</p>
+<p local-id=3D"f2e0bc270f4f">Usu=C3=A1rios de teclado n=C3=A3o conseguem ut=
+iliz=C3=A1-lo corretamente.</p>
+<hr local-id=3D"64015ef1-af41-44be-aab2-bc487afcc928" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"f8291c4ce84f" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Incorreto">Incorreto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;div=
+ (click)=3D"continuar()"&gt;
+ Continuar
+&lt;/div&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"c8c46df8-4339-4b1c-b1b4-316bee1b888c" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"247f145467b3" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;but=
+ton
+ type=3D"button"
+ (click)=3D"continuar()"&gt;
+
+ Continuar
+
+&lt;/button&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"a929d418-5a01-4fe8-a2a4-405e13b8c401" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"3dcd3ab3ae5c" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Impacto">Impacto</h3>
+<p local-id=3D"e1cd68794a9d">ASES:<br>
+Erro cr=C3=ADtico</p>
+<p local-id=3D"e8e5460877d4">Axe:<br>
+Critical</p>
+<p local-id=3D"5d292ce3b9ba">Lighthouse:<br>
+Impacta score</p>
+<hr local-id=3D"635f0462-01e2-44f7-8b94-d032b891a441" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"c4dcb42e7e9e" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA02">REGRA A02</h1>
+<h2 local-id=3D"435fff2136b7" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-TodoINPUTdevepossuirLABEL">Tod=
+o INPUT deve possuir LABEL</h2>
+<h3 local-id=3D"93e4fe442714" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Incorreto.1">Incorreto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;inp=
+ut
+ type=3D"text"
+ placeholder=3D"CPF"&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"1e0989ed-5815-47bb-a247-f48f5388e976" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"15fd786da043" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.1">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;lab=
+el for=3D"cpf"&gt;
+CPF
+&lt;/label&gt;
+
+&lt;input
+ id=3D"cpf"
+ type=3D"text"&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"b3fbfddd-7779-4053-a55e-f31c7e95622c" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"b0bdc0456c04" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Impacto.1">Impacto</h3>
+<p local-id=3D"ba1ce3cdc783">ASES:<br>
+Erro cr=C3=ADtico</p>
+<p local-id=3D"626266530b04">Axe:<br>
+Critical</p>
+<hr local-id=3D"6bd4b7a0-f9b2-4841-b691-bad11f3f5a71" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"0942e3664b6b" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA03">REGRA A03</h1>
+<h2 local-id=3D"3ba0e248c2e5" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Placeholdern=C3=A3osubstituiLa=
+bel">Placeholder n=C3=A3o substitui Label</h2>
+<h3 local-id=3D"b1267d7a27be" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Incorreto.2">Incorreto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;inp=
+ut
+ placeholder=3D"Nome"&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"2ad620f8-0fc7-4792-a0be-af3c2759dd9b" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"f13bcafafa89" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.2">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;lab=
+el for=3D"nome"&gt;
+Nome
+&lt;/label&gt;
+
+&lt;input
+ id=3D"nome"
+ placeholder=3D"Digite seu nome"&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"5281b4ca-d210-4d23-97e2-d397380839b0" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"8880666c3174" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA04">REGRA A04</h1>
+<h2 local-id=3D"f7dc9999c222" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-ImagensdevempossuirALT">Imagen=
+s devem possuir ALT</h2>
+<h3 local-id=3D"0168135d436b" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Incorreto.3">Incorreto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;img=
+ src=3D"bagagem.png"&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"2b4dbdba-6c89-482d-a9c1-81ad25d24014" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"19674af5ef51" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.3">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;img
+ src=3D"bagagem.png"
+ alt=3D"Bagagem despachada inclu=C3=ADda"&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"79b6a9a7-4ee6-4f48-af17-ba3c9ea296bd" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"8713737b9e32" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA05">REGRA A05</h1>
+<h2 local-id=3D"05eed593defe" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Imagensdecorativas">Imagens de=
+corativas</h2>
+<h3 local-id=3D"4a823c4c2b57" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.4">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;img
+ src=3D"ornamento.svg"
+ alt=3D""
+ aria-hidden=3D"true"&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"226c6384-dc55-455d-8121-c165838c4a38" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"402a3d87cf64" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA06">REGRA A06</h1>
+<h2 local-id=3D"8d7a3f746657" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Um=C3=BAnicoH1porp=C3=A1gina">=
+Um =C3=BAnico H1 por p=C3=A1gina</h2>
+<h3 local-id=3D"198e9acf5078" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.5">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;h1&=
+gt;Check-in&lt;/h1&gt;
+
+&lt;h2&gt;Dados pessoais&lt;/h2&gt;
+
+&lt;h2&gt;Documentos&lt;/h2&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"13a9bed4-9770-4251-b06d-2dedf398483b" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"60ea535b5015" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Incorreto.4">Incorreto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;h1&=
+gt;Check-in&lt;/h1&gt;
+
+&lt;h1&gt;Documentos&lt;/h1&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"f10da564-1f96-4e31-9068-9a09c9c4c604" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"122081272739" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA07">REGRA A07</h1>
+<h2 local-id=3D"0403e91c2439" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-N=C3=A3opularn=C3=ADveisdecabe=
+=C3=A7alho">N=C3=A3o pular n=C3=ADveis de cabe=C3=A7alho</h2>
+<h3 local-id=3D"4e7a2c5a3b0d" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Incorreto.5">Incorreto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;h1&=
+gt;T=C3=ADtulo&lt;/h1&gt;
+
+&lt;h3&gt;Subt=C3=ADtulo&lt;/h3&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"4130a635-0756-4369-b1d6-a4fce286696e" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"87c89fe99577" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.6">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;h1&=
+gt;T=C3=ADtulo&lt;/h1&gt;
+
+&lt;h2&gt;Subt=C3=ADtulo&lt;/h2&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"2b2b7b39-3cf3-49b6-b721-29999d9d88b3" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"d73aecf6c8c2" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA08">REGRA A08</h1>
+<h2 local-id=3D"2eca4fcce761" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Todobot=C3=A3odevepossuirnomea=
+cess=C3=ADvel">Todo bot=C3=A3o deve possuir nome acess=C3=ADvel</h2>
+<h3 local-id=3D"dfbec3cdb501" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Incorreto.6">Incorreto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;but=
+ton&gt;
+ &lt;tgr-icon&gt;&lt;/tgr-icon&gt;
+&lt;/button&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"dab22011-213c-4ab6-b3a7-228ca7300098" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"305e8a63b270" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.7">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;but=
+ton
+ aria-label=3D"Pesquisar"&gt;
+
+ &lt;tgr-icon&gt;&lt;/tgr-icon&gt;
+
+&lt;/button&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"d23dc486-2417-486d-b2e4-6143c2c78ae4" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"c58f40e8290d" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA09">REGRA A09</h1>
+<h2 local-id=3D"1d8e3bc79d9d" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-N=C3=A3oremoveroutline">N=C3=
+=A3o remover outline</h2>
+<h3 local-id=3D"cd2fc1bb06c0" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Incorreto.7">Incorreto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">button:=
+focus{
+ outline:none;
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"75b3d351-a758-4b90-9c66-3953ab7978c0" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"c118e8259d04" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.8">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">button:=
+focus{
+ outline:3px solid;
+}
+</pre>
+</div>
+</div>
+<hr local-id=3D"81eef70d-9a87-4074-9cda-1f265455f8ed" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"2cec183930a6" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA10">REGRA A10</h1>
+<h2 local-id=3D"766bb9a32f2f" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Todomodaldevepossuirroledialog=
+">Todo modal deve possuir role dialog</h2>
+<h3 local-id=3D"51dc2c733618" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.9">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;div
+ role=3D"dialog"
+ aria-modal=3D"true"&gt;
+
+&lt;/div&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"d80e4048-53f1-4fa9-8516-1dde0b7a0364" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"bbe163524a0f" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA11">REGRA A11</h1>
+<h2 local-id=3D"89753453fa7c" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Camposobrigat=C3=B3rios">Campo=
+s obrigat=C3=B3rios</h2>
+<h3 local-id=3D"2537fdf0ebd2" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.10">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;inp=
+ut
+ required
+ aria-required=3D"true"&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"8cb04536-4eba-46b7-94e0-23a12895dd4b" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"3cbba0295a6f" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA12">REGRA A12</h1>
+<h2 local-id=3D"88bdf06032bb" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Mensagensdeerroassociadasaocam=
+po">Mensagens de erro associadas ao campo</h2>
+<h3 local-id=3D"296f7d2f0570" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.11">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;inp=
+ut
+ aria-describedby=3D"erro-cpf"&gt;
+
+&lt;span
+ id=3D"erro-cpf"&gt;
+
+ CPF inv=C3=A1lido
+
+&lt;/span&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"1fed96a3-6442-40f6-b6d1-d0044e204586" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"b84b6efe8602" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA13">REGRA A13</h1>
+<h2 local-id=3D"1c67ba085269" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Linksdevempossuirsignificado">=
+Links devem possuir significado</h2>
+<h3 local-id=3D"18cf7cce0530" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Incorreto.8">Incorreto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;a h=
+ref=3D"#"&gt;
+Clique aqui
+&lt;/a&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"f5182386-ff1c-4124-8f7f-61e4a61f806d" data-layout=3D"wide" =
+data-width=3D"760">
+<h3 local-id=3D"152723e600f9" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.12">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;a h=
+ref=3D"#"&gt;
+Consultar voos dispon=C3=ADveis
+&lt;/a&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"b3496861-f7c4-421b-aa86-b542fcaea65b" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"4b9f5f3cf36d" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA14">REGRA A14</h1>
+<h2 local-id=3D"a0bc07abf2a5" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Conte=C3=BAdodin=C3=A2mico">Co=
+nte=C3=BAdo din=C3=A2mico</h2>
+<h3 local-id=3D"56b0e9919f3e" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.13">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;div
+ aria-live=3D"polite"&gt;
+
+ Carregando voos
+
+&lt;/div&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"8a6110ff-0f03-4863-9c8c-de3aaad02c12" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"938201970517" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA15">REGRA A15</h1>
+<h2 local-id=3D"74a4eb375570" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-TabelasdevempossuirTH">Tabelas=
+ devem possuir TH</h2>
+<h3 local-id=3D"4180cc52b978" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Correto.14">Correto</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;tab=
+le&gt;
+
+&lt;thead&gt;
+
+&lt;tr&gt;
+&lt;th&gt;Voo&lt;/th&gt;
+&lt;th&gt;Status&lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;/thead&gt;
+
+&lt;/table&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"162dd652-a7b6-4b9b-b7aa-a61e5c15fc63" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"f7d2510ace7a" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA16">REGRA A16</h1>
+<h2 local-id=3D"170bc3f8dd5d" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Navega=C3=A7=C3=A3oportecladoo=
+brigat=C3=B3ria">Navega=C3=A7=C3=A3o por teclado obrigat=C3=B3ria</h2>
+<p local-id=3D"51383e680cae">Todo componente deve funcionar com:</p>
+<ul local-id=3D"daa33e74-a226-4d25-9ac1-59bde547893d">
+<li local-id=3D"c76f86b8-10b0-4f26-aea6-d7ce05b7483c">
+<p local-id=3D"88452c6f3303">TAB</p></li>
+<li local-id=3D"adf4febd-9951-4dc6-8c02-49bfb968a031">
+<p local-id=3D"ab2ecb571d6c">SHIFT TAB</p></li>
+<li local-id=3D"39f06544-36cc-45d3-a54e-3fcec5799054">
+<p local-id=3D"3b607d0c95d7">ENTER</p></li>
+<li local-id=3D"277668e1-47b5-4287-9ba6-0899055e2d7f">
+<p local-id=3D"8b6c5c287b1d">SPACE</p></li>
+<li local-id=3D"a197fe95-e493-439f-a069-10a82e201e90">
+<p local-id=3D"4f6d724ffd1b">ESC</p></li>
+</ul>
+<hr local-id=3D"a2d87660-cb49-4fca-ba89-37ec10971184" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"133f88598ec5" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA17">REGRA A17</h1>
+<h2 local-id=3D"5971ebd37229" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-UtilizarLandmarks">Utilizar La=
+ndmarks</h2>
+<h3 local-id=3D"e809eae18b61" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Obrigat=C3=B3rio">Obrigat=C3=
+=B3rio</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;hea=
+der&gt;
+&lt;nav&gt;
+&lt;main&gt;
+&lt;footer&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"2cb74285-1bbc-41d6-887c-0260fe3ec069" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"2653b3382119" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA18">REGRA A18</h1>
+<h2 local-id=3D"a4b8c81b9cbc" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Declararidioma">Declarar idiom=
+a</h2>
+<h3 local-id=3D"7657d60810e5" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Obrigat=C3=B3rio.1">Obrigat=C3=
+=B3rio</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;htm=
+l lang=3D"pt-BR"&gt;
+</pre>
+</div>
+</div>
+<hr local-id=3D"5a617266-9b8f-4370-8199-a6f6ae577ceb" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"03791c9a4cbb" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA19">REGRA A19</h1>
+<h2 local-id=3D"e2e7add54fad" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-Contrastem=C3=ADnimo">Contrast=
+e m=C3=ADnimo</h2>
+<p local-id=3D"d1e0695596dd">Texto comum:</p>
+<p local-id=3D"7f7a9d25909f">4.5:1</p>
+<p local-id=3D"d769e7c50a4a">Texto grande:</p>
+<p local-id=3D"acf0c5480c7b">3:1</p>
+<p local-id=3D"e6b159a38f19">Componentes:</p>
+<p local-id=3D"7412ade7ec4a">3:1</p>
+<hr local-id=3D"66d643be-9191-4642-acd7-ecc8dc07bbb7" data-layout=3D"wide" =
+data-width=3D"760">
+<h1 local-id=3D"d1b8d79954de" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-REGRAA20">REGRA A20</h1>
+<h2 local-id=3D"e71cb2554a50" id=3D"Ap=C3=AAndiceA-Padr=C3=B5esObrigat=C3=
+=B3riosdeCodifica=C3=A7=C3=A3oAcess=C3=ADvel-HTMLSem=C3=A2nticosempreprimei=
+ro">HTML Sem=C3=A2ntico sempre primeiro</h2>
+<p local-id=3D"6739b89e1758">Prioridade:</p>
+<ol start=3D"1" local-id=3D"89f763e9-4b04-4ddb-8eb7-d50d65679101">
+<li local-id=3D"2aaaa31b-8b50-40ff-be6c-1c24fd525f71">
+<p local-id=3D"fd6a4df80f67">HTML Sem=C3=A2ntico</p></li>
+<li local-id=3D"f0a2f927-04f2-4a5c-b6ca-e35d5b0b7fa9">
+<p local-id=3D"d7ce4545eb39">ARIA</p></li>
+<li local-id=3D"52c832bf-7414-43b5-a350-14039d081a66">
+<p local-id=3D"169fafe67ab2">Javascript</p></li>
+</ol>
+<p local-id=3D"f975dcb584b3">Nunca inverter essa ordem.<br><br><br></p>
+    </div>
+</body>
+</html>
+------=_Part_38_1077536239.1790019536956--
