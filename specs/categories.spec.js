@@ -6,18 +6,12 @@ const { login, newCategory } = require("../utils/helper");
 
 describe('Categories', () => {
 
-    let token, postRes, categoryId;
+    let token;
 
     beforeAll(async () => {
 
         token = await login(adminCredentials.email, adminCredentials.password)
-        category = await newCategory();
-
-        // const body = {"name": "Test Category " + Math.floor(Math.random() *10000)};
-
-        // postRes = await categoriesController
-        //     .postCategories(body)
-        //     .set("Authorization", "Bearer " + token)          
+        category = await newCategory();  
     }) 
 
     it ('GET /cateories', async () =>{

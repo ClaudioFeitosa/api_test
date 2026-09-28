@@ -33,7 +33,7 @@ const getCategoryId = async () => {
         .postCategories(body)
         .set("Authorization", "Bearer " + token);
 
-    return categoryId = res.body._id ;    
+    return res.body._id ;    
 } 
 
 

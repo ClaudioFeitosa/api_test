@@ -6,7 +6,7 @@ describe('Brands', () => {
     let newBrand;
 
     describe('Fetch brands', () => {        
-        it.only('GET /brands', async () => {
+        it('GET /brands', async () => {
             const res = await request.get('/brands/');
             expect(res.statusCode).toBe(200);
             expect(res.body.length).toBeGreaterThan(1);
@@ -189,7 +189,7 @@ describe('Brands', () => {
             expect(res.body.error).toContain('Brand not found.')
         })
 
-        it.only ('GET /Brand/: ID', async() => {
+        it ('GET /Brand/: ID', async() => {
             const res = await request.get('/brands/' + postBrand.body._id);
             //console.log(res.body);
             expect(res.statusCode).toEqual(200);

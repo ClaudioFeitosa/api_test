@@ -8,4 +8,20 @@ module.exports = {
   transform: {
     ...tsJestTransformCfg,
   },
+  reporters: [
+    'default',
+    ['jest-junit',
+      {
+        outputDirectory: 'reports'
+      }
+    ],
+    ['jest-html-reporters',
+      {
+        outputDirectory: 'reports',
+        "publicPath": 'reports',
+        "filename": "report.html",
+        "openReport": true
+      }
+    ]
+  ]
 };
