@@ -6,13 +6,14 @@ const { login, newCategory } = require("../utils/helper");
 
 describe('Categories', () => {
 
-    let token, postRes, categoryId;
+    let token, postRes;
 
     beforeAll(async () => {
 
         token = await login(adminCredentials.email, adminCredentials.password)
-        category = await newCategory();
 
+        categoryId = await newCategory("Test Category " + Math.floor(Math.random() *10000)
+        );
         // const body = {"name": "Test Category " + Math.floor(Math.random() *10000)};
 
         // postRes = await categoriesController
@@ -27,24 +28,28 @@ describe('Categories', () => {
         expect(Object.keys(res.body[0])).toEqual(['_id', 'name'])
     });
 
-    describe('Create Categories', () => {
+    describe.only('Create Categories', () => {
         it('POS/categories', async () => {
-            category002 = await newCategory();
-            
-            console.log(category002.body)            
-            expect(category002.statusCode).toEqual(200); 
-            expect(category002.body.name).toBeDefined();
-            
+            // const body = {"name": "Test Category" + Math.floor(Math.random() *10000)}
+            // const res = await categoriesController
+            // .postCategories(body)
+            // este .set é como eu devo passar a autenticação via headers
+            const category = await newCategory("Test Category " + Math.floor(Math.random() *10000));
+
+            //.set("Authorization", "Bearer " + token)
+            console.log(category.body)            
+            expect(category.statusCode).toEqual(200); 
+            //expect(category.body.name).toEqual(body.name)
         })
     })
         
     describe('PUT CATERORIES', () => {       
         it('put categories/:id', async() => {
             const body = {
-                name : category.body.name + ' update'
+                name : postRes.body.name + ' update'
             };
             const res = await categoriesController
-                .putCategories(category.body._id, body)        
+                .putCategories(postRes.body._id, body)        
                 .set("Authorization", "Bearer " + token)  
                 
             console.log(res.body.name)
@@ -55,11 +60,14 @@ describe('Categories', () => {
     })
 
     describe('DELETE CATERORIES', () => {
-        it('delete/:id', async() => {
+        it('put categories/:id', async() => {
+
             const res = await categoriesController
-                .deleteCategories(category.body._id)       
+                .deleteCategories(postRes.body._id)       
                 .set("Authorization", "Bearer " + token) 
             expect(res.statusCode).toEqual(200)
+
         })
     })
+
 })
