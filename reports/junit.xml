@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="2" failures="0" errors="0" time="1.887">
-  <testsuite name="upload file" errors="0" failures="0" skipped="0" timestamp="2026-09-30T11:07:47" time="1.789" tests="2">
-    <testcase classname="upload file POST / upload/single file" name="upload file POST / upload/single file" time="0.644">
+<testsuites name="jest tests" tests="22" failures="0" errors="0" time="11.457">
+  <testsuite name="upload file" errors="0" failures="0" skipped="0" timestamp="2026-09-30T11:30:32" time="1.803" tests="2">
+    <testcase classname="upload file POST / upload/single file" name="upload file POST / upload/single file" time="0.561">
     </testcase>
-    <testcase classname="upload file POST / upload/multiple files" name="upload file POST / upload/multiple files" time="0.803">
+    <testcase classname="upload file POST / upload/multiple files" name="upload file POST / upload/multiple files" time="0.674">
+    </testcase>
+  </testsuite>
+  <testsuite name="Categories" errors="0" failures="0" skipped="0" timestamp="2026-09-30T11:30:32" time="4.453" tests="4">
+    <testcase classname="Categories GET /cateories" name="Categories GET /cateories" time="1.375">
+    </testcase>
+    <testcase classname="Categories Create Categories POS/categories" name="Categories Create Categories POS/categories" time="0.42">
+    </testcase>
+    <testcase classname="Categories PUT CATERORIES put categories/:id" name="Categories PUT CATERORIES put categories/:id" time="0.411">
+    </testcase>
+    <testcase classname="Categories DELETE CATERORIES delete/:id" name="Categories DELETE CATERORIES delete/:id" time="0.408">
+    </testcase>
+  </testsuite>
+  <testsuite name="Brands" errors="0" failures="0" skipped="0" timestamp="2026-09-30T11:30:32" time="10.729" tests="16">
+    <testcase classname="Brands Fetch brands GET /brands" name="Brands Fetch brands GET /brands" time="2.403">
+    </testcase>
+    <testcase classname="Brands Create brands POST /brands" name="Brands Create brands POST /brands" time="0.74">
+    </testcase>
+    <testcase classname="Brands Create brands Schema Verification - Name is  a mandatori field" name="Brands Create brands Schema Verification - Name is  a mandatori field" time="0.233">
+    </testcase>
+    <testcase classname="Brands Create brands Schema Verification - min char length for name 1" name="Brands Create brands Schema Verification - min char length for name 1" time="0.218">
+    </testcase>
+    <testcase classname="Brands Create brands Schema Verification - min char length for name =29" name="Brands Create brands Schema Verification - min char length for name =29" time="0.411">
+    </testcase>
+    <testcase classname="Brands Create brands Schema Verification - min char length for name =30" name="Brands Create brands Schema Verification - min char length for name =30" time="0.312">
+    </testcase>
+    <testcase classname="Brands Create brands Schema Verification - min char length for name =31" name="Brands Create brands Schema Verification - min char length for name =31" time="0.23">
+    </testcase>
+    <testcase classname="Brands Create brands Schema Verification - Description must be a string" name="Brands Create brands Schema Verification - Description must be a string" time="0.238">
+    </testcase>
+    <testcase classname="Brands Create brands Business Logic- Duplicate brand entries not allowed" name="Brands Create brands Business Logic- Duplicate brand entries not allowed" time="0.613">
+    </testcase>
+    <testcase classname="Brands Fetch Individual Brand Business Logic- GET /Brand/:INVALID_ID should throw 404" name="Brands Fetch Individual Brand Business Logic- GET /Brand/:INVALID_ID should throw 404" time="0.309">
+    </testcase>
+    <testcase classname="Brands Fetch Individual Brand GET /Brand/: ID" name="Brands Fetch Individual Brand GET /Brand/: ID" time="0.323">
+    </testcase>
+    <testcase classname="Brands Fetch Individual Brand GET lista de brands" name="Brands Fetch Individual Brand GET lista de brands" time="1.892">
+    </testcase>
+    <testcase classname="Brands Update brands PUT /brands" name="Brands Update brands PUT /brands" time="0.412">
+    </testcase>
+    <testcase classname="Brands Update brands PUT /brands/invalid_id" name="Brands Update brands PUT /brands/invalid_id" time="0.217">
+    </testcase>
+    <testcase classname="Brands Delete Brands DELETE /brands" name="Brands Delete Brands DELETE /brands" time="0.445">
+    </testcase>
+    <testcase classname="Brands Delete Brands DELETE /brands/invalid_id" name="Brands Delete Brands DELETE /brands/invalid_id" time="0.208">
     </testcase>
   </testsuite>
 </testsuites>
