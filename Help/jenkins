@@ -1,0 +1,11 @@
+
+Get-Service Jenkins
+Start-Service Jenkins
+
+http://localhost:8081/
+
+para pegar a senha 
+Get-Content "C:\ProgramData\Jenkins\.jenkins\secrets\initialAdminPassword"
+
+user 
+admin
